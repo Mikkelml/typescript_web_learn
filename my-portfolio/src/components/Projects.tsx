@@ -4,7 +4,12 @@ import { type Project } from '../types';
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+    <div className="bg-white
+                     rounded-lg
+                     shadow-lg
+                     overflow-hidden
+                     hover:shadow-xl
+                     transition-shadow">
       <img
         src={project.image}
         alt={project.title}
@@ -31,17 +36,17 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
-              GitHub 
+              Link: 
             </a>
           )
           }
           {project.liveUrl && (
-            <a>
+            <a
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700 transition-colors"
-            
+              >
               Live Demo →
             </a>
           )}
@@ -53,9 +58,12 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="py-20
+                                      bg-gradient-to-b
+                                      from-black to-gray-400
+                                      ">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+        <h2 className="text-5xl font-bold text-center mb-12">My Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />

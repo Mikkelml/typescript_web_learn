@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <a href="#" className="text-2xl font-bold text-gray-800">
-            YourName
+            Victor Ferrold
           </a>
 
           {/* Desktop Navigation */}
