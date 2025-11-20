@@ -43,15 +43,18 @@ const Contact: React.FC = () => {
             </p>
             <div className="space-y-4">
                 {socialLinks.map((link) => (
-                    <a>
+                    
+                    <a
                     key={link.name}
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors"
+                  >
                     <span className="text-2xl">{link.icon}</span>
                     <span>{link.name}</span>
-                    </a>
+                  </a>
+                  
                 ))}
                 </div>
           </div>

@@ -25,12 +25,12 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
         </div>
         <div className="flex gap-4">
           {project.githubUrl && (
-            <a>
+            <a
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 transition-colors"
-            
+                >
               GitHub 
             </a>
           )
