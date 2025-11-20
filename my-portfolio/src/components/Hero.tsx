@@ -10,8 +10,7 @@ const Hero: React.FC = () => {
                        flex
                       items-center
                       justify-center
-                      bg-gradient-to-b
-                      from-black to-gray-400 h-64
+                      bg-[url(https://i1.sndcdn.com/visuals-Nu1y5otsRMmZB0U2-izKOYA-t1240x260.jpg)]
                       ">
       <div className="container mx-auto px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">

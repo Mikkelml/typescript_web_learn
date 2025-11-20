@@ -25,7 +25,7 @@ const Skills: React.FC = () => {
   const toolsSkills = skills.filter((s) => s.category === 'xxx3');
 
   return (
-    <section id="skills" className="py-20 bg-white">
+    <section id="skills" className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">Skills</h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">

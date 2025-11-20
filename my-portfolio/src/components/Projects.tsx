@@ -59,8 +59,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
 const Projects: React.FC = () => {
   return (
     <section id="projects" className="py-20
-                                      bg-gradient-to-b
-                                      from-black to-gray-400
+                                      bg-black
                                       ">
       <div className="container mx-auto px-6">
         <h2 className="text-5xl font-bold text-center mb-12">My Projects</h2>
