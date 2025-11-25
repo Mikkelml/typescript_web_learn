@@ -34,7 +34,7 @@ export const skills: Skill[] = [
   { name: 'Afro House', level: 93, category: 'xxx1' }, // xxx1 -> Music
   { name: 'Tech House', level: 92, category: 'xxx1' },
   { name: 'Afro Tech', level: 100, category: 'xxx1' },
-  //{ name: 'xxx', level: 85, category: 'xxx1' },
+
   { name: 'xxx', level: 80, category: 'xxx2' }, // xxx2 -> 
   { name: 'xxx', level: 75, category: 'xxx2' },
   { name: 'xxx', level: 70, category: 'xxx2' },
