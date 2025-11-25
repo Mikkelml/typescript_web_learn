@@ -6,15 +6,22 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="min-h-screen
-                       flex
-                      items-center
-                      justify-center
-                      bg-[url(https://i1.sndcdn.com/visuals-Nu1y5otsRMmZB0U2-izKOYA-t1240x260.jpg)]
-                      ">
-      <div className="container mx-auto px-6 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
-          Hi, I'm <span className="text-blue-600">Victor Ferrold</span>
+<section
+          className="
+            min-h-screen
+            flex
+            items-center
+            justify-center
+            bg-[url('/src/assets/hero1.jpg')]
+            bg-cover
+            bg-center
+            bg-no-repeat
+          "
+            >
+
+      {/* <div className="container mx-auto px-6 text-center">
+        <h1 className="text-5xl md:text-7xl font-bold text-amber-300 mb-4">
+          Hi, I'm <span className="text-amber-100">Victor Ferrold</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-8">
           DJ | Spotify playlist creater | Artist
@@ -37,6 +44,7 @@ const Hero: React.FC = () => {
           </button>
         </div>
       </div>
+ */}
     </section>
   );
 };
