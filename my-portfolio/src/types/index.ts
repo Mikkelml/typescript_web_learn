@@ -11,7 +11,7 @@ export interface Project {
 export interface Skill {
   name: string;
   level: number;
-  category: 'frontend' | 'backend' | 'tools';
+  category: 'xxx1' | 'xxx2' | 'xxx3';
 }
 
 export interface SocialLink {

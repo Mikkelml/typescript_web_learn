@@ -20,29 +20,29 @@ const SkillBar: React.FC<{ skill: Skill }> = ({ skill }) => {
 };
 
 const Skills: React.FC = () => {
-  const frontendSkills = skills.filter((s) => s.category === 'frontend');
-  const backendSkills = skills.filter((s) => s.category === 'backend');
-  const toolsSkills = skills.filter((s) => s.category === 'tools');
+  const frontendSkills = skills.filter((s) => s.category === 'xxx1');
+  const backendSkills = skills.filter((s) => s.category === 'xxx2');
+  const toolsSkills = skills.filter((s) => s.category === 'xxx3');
 
   return (
-    <section id="skills" className="py-20 bg-white">
+    <section id="skills" className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">Skills</h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-2xl font-bold mb-6 text-center">Frontend</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center">xxx1</h3>
             {frontendSkills.map((skill) => (
               <SkillBar key={skill.name} skill={skill} />
             ))}
           </div>
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-2xl font-bold mb-6 text-center">Backend</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center">xxx2</h3>
             {backendSkills.map((skill) => (
               <SkillBar key={skill.name} skill={skill} />
             ))}
           </div>
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-2xl font-bold mb-6 text-center">Tools</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center">xxx3</h3>
             {toolsSkills.map((skill) => (
               <SkillBar key={skill.name} skill={skill} />
             ))}
