@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: 'DJ',
     description: 'Being a looser on stage as well',
     technologies: ['Button clicker', 'Pad scratcher', 'Bongo head', 'Rokokko'],
-    image: '/src/assets/test.jpg',
+    image: 'my-portfolio/src/assets/test.jpg',
     githubUrl: 'https://www.instagram.com/ferrold_/',
     liveUrl: 'https://www.instagram.com/ferrold_/'
   },
@@ -15,7 +15,7 @@ export const projects: Project[] = [
     title: 'Spille ma dinka dinka du',
     description: 'Creeater',
     technologies: ['Music', 'Instagram', 'Soundcloud', 'spotify'],
-    image: '/src/assets/project2.jpg',
+    image: 'my-portfolio/src/assets/project2.jpg',
     githubUrl: 'https://www.instagram.com/ferrold_/',
     liveUrl: 'https://www.instagram.com/ferrold_/'
   },
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     title: 'Stright white boi',
     description: 'Kærste',
     technologies: ['xxx', 'xxx', 'xxx', 'xxx'],
-    image: '/src/assets/mixer.jpg',
+    image: 'my-portfolio/src/assets/mixer.jpg',
     githubUrl: 'https://www.facebook.com/victor.ferrold',
     liveUrl: 'https://www.facebook.com/victor.ferrold'
   }

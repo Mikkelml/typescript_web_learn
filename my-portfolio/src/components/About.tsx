@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <section id="about" className="bg-black pt-20
                                     ">
       <div className="container mx-auto px-6">
-        <h2 className="text-7xl font-bold text-center mb-12 text-white">About Me</h2>
+        <h2 className="text-7xl font-bold text-center mb-12 text-white">Sportify</h2>
         <div className="max-w-3xl mx-auto">
           <div>
             <iframe data-testid="embed-iframe" src="https://open.spotify.com/embed/artist/2iWkuTijtgxovgCiuYHdWL?utm_source=generator&theme=0"
