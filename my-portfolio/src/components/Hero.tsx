@@ -16,12 +16,12 @@ const Hero: React.FC = () => {
             bg-cover
             bg-center
             bg-no-repeat
+            backdrop-blur-sm
           "
             >
-
-      {/* <div className="container mx-auto px-6 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold text-amber-300 mb-4">
-          Hi, I'm <span className="text-amber-100">Victor Ferrold</span>
+ <div className="container max-w-xxl mx-auto px-6 text-center bg-white/3 backdrop-blur-sm">
+        <h1 className="text-9xl md:text-9xl font-bold text-gray-600 mb-4">
+          Victor Ferrold 
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-8">
           DJ | Spotify playlist creater | Artist
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           </button>
         </div>
       </div>
- */}
+
     </section>
   );
 };
